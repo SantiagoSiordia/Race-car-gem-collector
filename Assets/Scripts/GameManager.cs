@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public GameObject gameplayUI;
     public GameObject menuUI;
     public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI highScoreText;
 
     int score = 0;
 
