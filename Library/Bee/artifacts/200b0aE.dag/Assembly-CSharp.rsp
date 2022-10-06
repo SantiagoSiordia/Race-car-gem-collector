@@ -357,6 +357,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/CarController.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/PlatformSpawner.cs"
 -langversion:9.0
 
 /deterministic
