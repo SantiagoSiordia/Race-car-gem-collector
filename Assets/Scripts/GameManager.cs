@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,6 +12,8 @@ public class GameManager : MonoBehaviour
 
     public bool isGameStarted = false;
     public GameObject platformSpawner;
+    public GameObject gameplayUI;
+    public TextMeshProUGUI scoreText;
 
     int score = 0;
 
@@ -19,7 +23,7 @@ public class GameManager : MonoBehaviour
         }
         else {
             Destroy(gameObject);
-        }    
+        } 
     }
     // Start is called before the first frame update
     void Start()
@@ -40,13 +44,14 @@ public class GameManager : MonoBehaviour
     public void GameStart() {
         isGameStarted = true;
         platformSpawner.SetActive(true);
-
+        gameplayUI.SetActive(true);
         StartCoroutine(UpdateScore());
     }
 
     public void GameOver() {
         isGameStarted = false;
         platformSpawner.SetActive(false);
+        gameplayUI.SetActive(false);
         Invoke("ReloadLevel", 1f);
     }
 
@@ -58,7 +63,7 @@ public class GameManager : MonoBehaviour
         while (isGameStarted) {
             yield return new WaitForSeconds(1f);
             score++;
-            print(score);
+            scoreText.text = score.ToString();
         }
     }
 }
