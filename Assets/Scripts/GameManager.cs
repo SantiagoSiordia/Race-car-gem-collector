@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public bool isGameStarted = false;
     public GameObject platformSpawner;
     public GameObject gameplayUI;
+    public GameObject menuUI;
     public TextMeshProUGUI scoreText;
 
     int score = 0;
@@ -45,6 +46,7 @@ public class GameManager : MonoBehaviour
         isGameStarted = true;
         platformSpawner.SetActive(true);
         gameplayUI.SetActive(true);
+        menuUI.SetActive(false);
         StartCoroutine(UpdateScore());
     }
 
@@ -52,6 +54,7 @@ public class GameManager : MonoBehaviour
         isGameStarted = false;
         platformSpawner.SetActive(false);
         gameplayUI.SetActive(false);
+        menuUI.SetActive(true);
         Invoke("ReloadLevel", 1f);
     }
 
