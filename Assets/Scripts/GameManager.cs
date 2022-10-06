@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public bool isGameStarted = false;
     public GameObject platformSpawner;
 
+    int score = 0;
+
     private void Awake() {
         if (instance == null) {
             instance = this;
@@ -38,6 +40,8 @@ public class GameManager : MonoBehaviour
     public void GameStart() {
         isGameStarted = true;
         platformSpawner.SetActive(true);
+
+        StartCoroutine(UpdateScore());
     }
 
     public void GameOver() {
@@ -48,5 +52,13 @@ public class GameManager : MonoBehaviour
 
     void ReloadLevel() {
         SceneManager.LoadScene("Game");
+    }
+
+    IEnumerator UpdateScore() {
+        while (isGameStarted) {
+            yield return new WaitForSeconds(1f);
+            score++;
+            print(score);
+        }
     }
 }
