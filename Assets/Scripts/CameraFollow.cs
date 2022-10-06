@@ -14,7 +14,7 @@ public class CameraFollow : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
-        Follow();
+        if(target.position.y >= 0) Follow();
     }
 
     void Follow() {
