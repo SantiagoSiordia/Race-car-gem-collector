@@ -358,6 +358,7 @@
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/CarController.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/Platform.cs"
 "Assets/Scripts/PlatformSpawner.cs"
 -langversion:9.0
 

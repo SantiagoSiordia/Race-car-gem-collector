@@ -240,6 +240,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Car
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 28418a214c25243a39a089c8a96a1c42, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28418a214c25243a39a089c8a96a1c42, type: 3}
 --- !u!1 &480657468 stripped
