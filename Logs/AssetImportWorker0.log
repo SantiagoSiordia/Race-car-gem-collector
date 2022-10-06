@@ -5192,3 +5192,58 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 981.337228 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(b40621ec1af4f49ebb71e7a7cca2ae27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(b40621ec1af4f49ebb71e7a7cca2ae27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93afba342073b1a383f88335bad6332a') in 0.004907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.300920 seconds.
+  path: Assets/Fonts/PilotCommandLaser-mLGPm.otf
+  artifactKey: Guid(ce14950acde734882999caf5693b3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/PilotCommandLaser-mLGPm.otf using Guid(ce14950acde734882999caf5693b3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23efbc1768556d1cbde9e5d0c7184330') in 0.213189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.502756 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf54feaf4c8c8ca57cb1b9e3d5186efa') in 0.080177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.979393 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a505a956dbdd0d42a32f9da7772c5aef') in 0.121286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 92.810856 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d39d3b365ae06f4a5d582e5614ba55e') in 0.037281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.166994 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials
+  artifactKey: Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials using Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a5343dd66316b9eb35bafbffda078a') in 0.001945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.180951 seconds.
+  path: Assets/PilotCommandLaser-mLGPm.otf
+  artifactKey: Guid(8e7566499aed84a55a4bb9c8af67129f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PilotCommandLaser-mLGPm.otf using Guid(8e7566499aed84a55a4bb9c8af67129f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53921aae15d48227da23ddf5730064c') in 0.022101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 854.782272 seconds.
+  path: Assets/Fonts/PilotCommandLaser-mLGPm SDF.asset
+  artifactKey: Guid(5d846be7bca444cecb18f2b88fa707c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/PilotCommandLaser-mLGPm SDF.asset using Guid(5d846be7bca444cecb18f2b88fa707c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'b120bad62f4e84fb4536f5d39a19e8ab') in 0.095010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1229.519604 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(be188fc00989d4cb1a89661692135b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(be188fc00989d4cb1a89661692135b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21417f922360a26796f43ff32d680c01') in 0.002576 seconds 

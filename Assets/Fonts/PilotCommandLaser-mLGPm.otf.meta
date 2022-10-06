@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ce14950acde734882999caf5693b3170
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Pilot Command Laser
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 8e7566499aed84a55a4bb9c8af67129f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
