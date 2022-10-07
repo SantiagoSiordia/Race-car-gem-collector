@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Platform : MonoBehaviour
 {
+
+    public GameObject diamondPrefab;
+
     // Start is called before the first frame update
-    void Start()
-    {
-        
+    void Start() {
+        SpawnDiamond();
     }
 
     // Update is called once per frame
@@ -25,5 +27,16 @@ public class Platform : MonoBehaviour
     void Fall() {
         GetComponent<Rigidbody>().isKinematic = false;
         Destroy(gameObject, 1f);
+    }
+
+    void SpawnDiamond () {
+        int randomDiamond = Random.Range(0, 5);
+
+        Vector3 diamondPos = transform.position;
+        diamondPos.y += 1;
+
+        if(randomDiamond == 0) {
+            Instantiate(diamondPrefab, diamondPos, diamondPrefab.transform.rotation);
+        }
     }
 }
