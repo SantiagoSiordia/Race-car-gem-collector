@@ -8,6 +8,7 @@ public class AudioManager : MonoBehaviour
     public static AudioManager instance;
 
     [SerializeField] private AudioSource audioSource;
+    public AudioClip[] diamondClips;
 
     private void Awake() {
         if (instance == null) {
@@ -17,5 +18,9 @@ public class AudioManager : MonoBehaviour
             Destroy(gameObject);
         }
         DontDestroyOnLoad(gameObject);
+    }
+
+    public void PlayDiamondSound() {
+        audioSource.PlayOneShot(diamondClips[Random.Range(0, diamondClips.Length)], 0.3f);
     }
 }

@@ -1050,6 +1050,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 835317569}
+  diamondClips:
+  - {fileID: 8300000, guid: 0b1e59c5dfe7e47a8818c80d2cb85f88, type: 3}
+  - {fileID: 8300000, guid: ac2093fe938bb4c8599dac406e35bed9, type: 3}
+  - {fileID: 8300000, guid: 3e90d8c46e3944752889c911fae56286, type: 3}
+  - {fileID: 8300000, guid: 6095f38476a8a49738fb2c942ef68bc6, type: 3}
+  - {fileID: 8300000, guid: 9cbd6d8913d994d8082b654fd4541a13, type: 3}
 --- !u!4 &835317571
 Transform:
   m_ObjectHideFlags: 0

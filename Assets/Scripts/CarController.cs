@@ -52,6 +52,7 @@ public class CarController : MonoBehaviour
         if(other.gameObject.tag == "Diamond") {
             other.gameObject.SetActive(false);
             GameManager.instance.IncrementScore();
+            AudioManager.instance.PlayDiamondSound();
         }
     }
 }
