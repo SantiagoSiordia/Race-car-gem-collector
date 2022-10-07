@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
         }
         else {
             Destroy(gameObject);
-        } 
+        }
     }
     // Start is called before the first frame update
     void Start() {
