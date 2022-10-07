@@ -84,4 +84,9 @@ public class GameManager : MonoBehaviour
             PlayerPrefs.SetInt("HighScore", score);
         }
     }
+
+    public void IncrementScore() {
+        score+=2;
+        scoreText.text = score.ToString();
+    }
 }

@@ -36,7 +36,8 @@ public class Platform : MonoBehaviour
         diamondPos.y += 1;
 
         if(randomDiamond == 0) {
-            Instantiate(diamondPrefab, diamondPos, diamondPrefab.transform.rotation);
+            GameObject diamondInstance = Instantiate(diamondPrefab, diamondPos, diamondPrefab.transform.rotation);
+            diamondInstance.transform.parent = transform;
         }
     }
 }

@@ -47,4 +47,11 @@ public class CarController : MonoBehaviour
             isMovingLeft = true;
         }
     }
+
+    private void OnTriggerEnter(Collider other) {
+        if(other.gameObject.tag == "Diamond") {
+            other.gameObject.SetActive(false);
+            GameManager.instance.IncrementScore();
+        }
+    }
 }
