@@ -28,7 +28,7 @@ public class PlatformSpawner : MonoBehaviour
             GameObject newPlatform = Instantiate(platformPrefab, newPosition, Quaternion.identity);
             lastPlatform = newPlatform.transform;
             lastPlatformPosition = lastPlatform.position;
-            yield return new WaitForSeconds(0.4f);
+            yield return new WaitForSeconds(0.2f);
         }
     }
 

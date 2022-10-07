@@ -5,7 +5,7 @@ using UnityEngine;
 public class CarController : MonoBehaviour
 {
 
-    [SerializeField] private float speed = 5f;
+    [SerializeField] private float speed = 10f;
     bool isMovingLeft = true;
     bool firstInput = true;
 
