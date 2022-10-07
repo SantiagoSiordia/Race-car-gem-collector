@@ -8,6 +8,7 @@ public class CarController : MonoBehaviour
     [SerializeField] private float speed = 10f;
     bool isMovingLeft = true;
     bool firstInput = true;
+    public GameObject particleEffect;
 
     // Start is called before the first frame update
     void Start() {
@@ -51,6 +52,8 @@ public class CarController : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
         if(other.gameObject.tag == "Diamond") {
             other.gameObject.SetActive(false);
+
+            Instantiate(particleEffect, other.transform.position, Quaternion.identity);
             GameManager.instance.IncrementScore();
             AudioManager.instance.PlayDiamondSound();
         }

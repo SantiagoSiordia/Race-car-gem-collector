@@ -36,13 +36,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/AurynSky/Gems Ultimate Pack/Scripts/AnimationScript.cs" />
      <Compile Include="Assets/Scripts/CameraFollow.cs" />
      <Compile Include="Assets/Scripts/PlatformSpawner.cs" />
+     <Compile Include="Assets/Scripts/CameraColorChange.cs" />
      <Compile Include="Assets/Scripts/Platform.cs" />
      <Compile Include="Assets/Scripts/CarController.cs" />
-     <Compile Include="Assets/Scripts/GameManager.cs" />
      <Compile Include="Assets/Scripts/AudioManager.cs" />
-     <Compile Include="Assets/AurynSky/Gems Ultimate Pack/Scripts/AnimationScript.cs" />
+     <Compile Include="Assets/Scripts/GameManager.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />

@@ -357,6 +357,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/AurynSky/Gems Ultimate Pack/Scripts/AnimationScript.cs"
 "Assets/Scripts/AudioManager.cs"
+"Assets/Scripts/CameraColorChange.cs"
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/CarController.cs"
 "Assets/Scripts/GameManager.cs"

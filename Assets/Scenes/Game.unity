@@ -689,6 +689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  particleEffect: {fileID: 7908483553886260498, guid: 4a1d910cfabd24de1b679e86c5534b36, type: 3}
 --- !u!4 &480657472 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 28418a214c25243a39a089c8a96a1c42, type: 3}
@@ -1218,6 +1219,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1305,6 +1307,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 480657472}
   smoothSpeed: 15
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77e74e9a6607a4e638a9e9181ab82a6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colors:
+  - {r: 0.19607845, g: 0.29411766, b: 0.25882354, a: 0}
+  - {r: 0.24230155, g: 0.7794238, b: 0.9339623, a: 0}
+  - {r: 0.5996479, g: 0.32079923, b: 0.764151, a: 0}
+  - {r: 0.48246706, g: 0.735849, b: 0.7332337, a: 0}
+  - {r: 0.31413996, g: 0.25178, b: 0.4339623, a: 0}
 --- !u!1 &1266046817
 GameObject:
   m_ObjectHideFlags: 0
