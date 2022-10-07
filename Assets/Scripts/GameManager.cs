@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI highScoreText;
 
     int score = 0;
+    int highScore = 0;
 
     private void Awake() {
         if (instance == null) {
@@ -28,9 +29,9 @@ public class GameManager : MonoBehaviour
         } 
     }
     // Start is called before the first frame update
-    void Start()
-    {
-        
+    void Start() {
+        highScore = PlayerPrefs.GetInt("HighScore");
+        highScoreText.text = "Mejor puntuacion: " + highScore;
     }
 
     // Update is called once per frame
@@ -54,8 +55,10 @@ public class GameManager : MonoBehaviour
     public void GameOver() {
         isGameStarted = false;
         platformSpawner.SetActive(false);
+        StopCoroutine("UpdateScore");
         gameplayUI.SetActive(false);
         menuUI.SetActive(true);
+        SaveHighScore();
         Invoke("ReloadLevel", 1f);
     }
 
@@ -68,6 +71,17 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(1f);
             score++;
             scoreText.text = score.ToString();
+        }
+    }
+
+    void SaveHighScore() {
+        if (PlayerPrefs.HasKey("HighScore")) {
+            if (score > PlayerPrefs.GetInt("HighScore")) {
+                PlayerPrefs.SetInt("HighScore", score);
+            }
+        }
+        else {
+            PlayerPrefs.SetInt("HighScore", score);
         }
     }
 }
